@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Calculator{
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in); //scanner is for input
         System.out.print("enter the operator:");
 //        int a=sc.nextInt();
 //        int b=sc.nextInt();
