@@ -1,6 +1,6 @@
 public class FactorialOfNumber {
     static void main(String[] args) {
-     int n=0=;
+     int n=0;
      System.out.println(fact(n));
     }
     static int fact(int n){
