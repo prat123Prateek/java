@@ -1,6 +1,6 @@
 public class LCM {
     static void main(String[] args){
-        int a=20 ,b=25;
+        int a=20 ,b=55;
         System.out.println(lcm( a, b ,hcf(a,b)));;
 
     }
