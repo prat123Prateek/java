@@ -8,12 +8,12 @@ public class SortingAndTargetByRecursion {
         System.out.println(targetIndex(arr,target,index));
 
     }
-//    static boolean sort(int[] arr , int index){
-//        if(index==arr.length-1){
-//            return true;
-//        }
-//        return arr[index]<arr[index+1] && sort(arr ,index+1);
-//    }
+    static boolean sort(int[] arr , int index){
+        if(index==arr.length-1){
+            return true;
+        }
+        return arr[index]<arr[index+1] && sort(arr ,index+1);
+    }
     static boolean target(int[] arr, int target, int index){
         if(index==arr.length){
             return false;
